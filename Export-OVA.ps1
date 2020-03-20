@@ -10,8 +10,7 @@ param (
     )
 
 function Export-OVA { 
-    
-    
+        
     process {
         $PowerCLIInstalled = test-path "C:\Program Files (x86)\WindowsPowerShell\Modules\VMware.PowerCLI"
     
